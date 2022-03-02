@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #6699ff;
+    height: 100px;
+}
+
+.navbar ul li {
+    float: left;
+    margin-top: 20px;
+    margin-right: 25px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.home-image {
+    height: 400px;
+}
+
+.home-image h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    padding-top: 65px;
+}
+
+.home-image h2 {
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+}
+
+#btn1 {
+    background-color: aquamarine;
+    height: 75px;
+    width: 230px;
+    margin-left: 350px;
+    border-radius: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+#btn2 {
+    height: 75px;
+    width: 180px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 40px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: #000;
+}
+
+#btn2:hover {
+    color: aquamarine;
+    border-color: aquamarine;
+}
+
+.covid {
+    display: flex;
+}
+
+.covid-text {
+    margin: 50px;
+    margin-left: 80px;
+}
+
+.covid-text p {
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.covid-text #btn-covid {
+    margin-top: 25px;
+}
+
+.covid-image {
+    margin-top: 50px;
+    margin-right: 65px;
+    height: 400px;
+    width: 600px;
+}
+
+.covid-image img {
+    height: 400px;
+    width: 600px;
+}
+
+#btn-covid {
+    height: 55px;
+    width: 200px;
+    border-radius: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-color: #6699ff;
+}
+
+#btn-covid:hover {
+    background-color: #000;
+    color: #fff;
+}
